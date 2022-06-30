@@ -257,25 +257,28 @@ body {
 /*Styling the buttons*/
 
 .order-btn{
-  border: 1px solid #ffa50073;
+  border: 0px solid #ffa50073;
   border-radius: 5px;
-  background-color:#395905;
-  ;
-  color: white;
-  font-size:200%;
+  background-color: #395905;
+  color: #ffffff;
+  font-size:100%;
   text-align: center;
   text-decoration: none;
-  width: auto;
+  width: 120px;
+  height: 30px;
+  margin-top: 0px;
   }
 .view-btn{
   border: 0px solid #ffa50073;
   border-radius: 5px;
-  background-color: brown;
+  background-color: #395905;
   color: #ffffff;
-  font-size:220%;
+  font-size:100%;
   text-align: center;
   text-decoration: none;
-  width: auto;
+  width: 120px;
+  height: 30px;
+  margin-top: 0px;
   }
 .btn-small {
       padding: 5px 5px!important;
@@ -398,10 +401,10 @@ span.psw {
 }
 /*Styling for the footer*/
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+  height: 35px;
   background-color: #395905;
   color: white;
   font-family:"Tahoma";
@@ -409,6 +412,10 @@ span.psw {
   font-weight:bold;
   color:#FFFFFF;
   text-decoration:none
+}
+
+footer p {
+  padding: 10px;
 }
 #left {
  float: left;
@@ -438,6 +445,34 @@ span.psw {
 #bg-menu{
 	background: whitesmoke;
 }
+
+.menu-items{
+  display: flex;
+  justify-content: space-between;
+  float: center;
+  margin: 50px 100px 100px 100px;
+
+}
+
+.menu-items img{
+  height: 230px;
+  width: 330px;
+
+}
+.menu-items-second{
+  display: flex;
+  justify-content: space-between;
+  float: center;
+  margin: 10px 100px 20px 100px;
+
+}
+
+.menu-items-second img{
+  height: 230px;
+  width: 330px;
+
+}
+
 .item{
 	display: flex;
   flex-direction: row;
@@ -507,6 +542,12 @@ span.psw {
 	background: blue;
 	border-color: blue;
 }
+
+.green:hover{
+	background: green;
+	border-color: green;
+}
+
 
 .float-right{
 	margin-right: 0!important;
