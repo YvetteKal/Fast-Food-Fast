@@ -4,7 +4,7 @@ function login(e) {
   
     var adminLoginCheck = document.getElementById("admin-login");
   
-    if (adminLoginCheck && adminLoginCheck.checked) {
+    if (adminLoginCheck && adminLoginCheck.checked) {  
         
        window.location.href = "https://yvettekal.github.io/Fast-Food-Fast/UI/admin-order-page.html"
       return
