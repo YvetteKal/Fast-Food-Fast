@@ -32,13 +32,14 @@ body {
 .about-flex{
   display: flex;
 }
-.about-img{
+.help-img{
   width: 100%;
   height: auto;
   background: none;
 }
-.about-img img{
+.help-img img{
   width:90%;
+  height: auto;
 }
 .register-flex{
   display: flex;
@@ -578,63 +579,71 @@ footer p {
 	margin-left:25%;
 }
 .float-center{
-	position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	/* position: relative; */
 }
 /*styling for tables*/
 table.hist-table {
-  border: 2px solid #FFFFFF;
+  border: 2px solid #313030;
   width: 50%;
+  margin-bottom: 16%;
   text-align: center;
   border-collapse: collapse;
+
 }
 table.hist-table td, table.hist-table th {
-  border: 1px solid #FFFFFF;
   padding: 3px 4px;
 }
 table.hist-table tbody td {
   font-size: 13px;
 }
 table.hist-table td:nth-child(odd) {
-  background: #EBEBEB;
+  background: #dff8da;
 }
+
 table.hist-table thead {
   background: #FFFFFF;
-  border-bottom: 4px solid #333333;
+  
 }
 table.hist-table thead th {
   font-size: 15px;
   font-weight: bold;
   color: #333333;
   text-align: center;
-  border-left: 2px solid #333333;
 }
-table.hist-table thead th:first-child {
-  border-left: none;
+.add-button {
+  text-align: center; 
+  color: #FFFFFF; 
+  margin-bottom: 11px; 
+  padding: 2px 10px 2px 10px; 
+  background: #395905;
+  border-radius: 5px;
 }
 
+.add-button a{
+  margin-right: 11px;
+  margin-bottom: 11px; 
+  color: #FFFFFF;
+}
 table.hist-table tfoot {
   font-size: 12px;
   font-weight: bold;
   color: #000000;
-  border-top: 4px solid #000000;
 }
 table.hist-table tfoot td {
   font-size: 16px;
 }
 table.admin-table {
   border: 1px solid #1C6EA4;
-  background-color: #EEEEEE;
-  width: 80%;
+  background-color: #ffffff;
+  width: 100%;
   text-align: left;
   border-collapse: collapse;
 }
 table.admin-order-table {
   border: 1px solid green;
-  background-color: whitesmoke;
-  width: 60%;
+  background-color: #FFFFFF;
+  width: 100%;
+  padding-bottom: 100%;
   text-align: left;
   border-collapse: collapse;
 }
@@ -645,14 +654,8 @@ table.admin-table td, table.admin-table th {
 table.admin-table tbody td {
   font-size: 13px;
 }
-table.admin-table tr:nth-child(even) {
-  background: #D0E4F5;
-}
 table.admin-table thead {
-  background: #1C6EA4;
-  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
-  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
-  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: #395905;
   border-bottom: 2px solid #444444;
 }
 table.admin-table thead th {
@@ -672,7 +675,7 @@ table.admin-table tfoot {
   font-size: 14px;
   font-weight: bold;
   color: #FFFFFF;
-  background: #D0E4F5;
+  background: #ffffff;
   background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
   background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
   background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
@@ -689,7 +692,7 @@ table.admin-order-table tfoot .links {
 }
 table.admin-table tfoot .links a{
   display: inline-block;
-  background: #1C6EA4;
+  background: #395905;
   color: #FFFFFF;
   padding: 2px 8px;
   border-radius: 5px;
@@ -701,6 +704,10 @@ table.admin-order-table tfoot .links a{
   padding: 2px 8px;
   border-radius: 5px;
   text-decoration: none;
+}
+
+table {
+  margin-bottom: 7rem;
 }
 
 /*The end*/
